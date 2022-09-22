@@ -1,0 +1,151 @@
+`/* 전체크기 */
+.container{
+  height:100vh;
+  width:100%;
+}
+
+/* 상단바 */
+.header{
+  display: flex;
+  height: 20vh;
+  align-items: center;
+  padding: 0 3rem;
+}
+
+/* 네비게이션 */
+.nav{
+  /* height: 7%; */
+  display: inline-block;
+  background-color: 	#696969;
+  border-top:  1px solid grey;
+  border-bottom:  1px solid grey;
+  width: 100%;
+  margin-bottom: 15px;
+  position: sticky;
+  top: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  z-index: 3;
+}
+
+.nav > ul{
+  display: flex;
+  flex: 1;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav > ul > li{
+  padding-right: 3rem;
+}
+
+.nav > ul > li > a{
+  color: white;
+}
+
+/* 본문 */
+.web-img{
+  width: 230px;
+  float: right;
+  margin-top: 4.5rem;
+  /* padding-right: 2rem; */
+}
+
+.css3-img{
+  width: 295px;
+  float: right;
+}
+
+.boot-img{
+  width: 295px;
+  /* float: left; */
+}
+
+.tag-img{
+  width: 230px;
+  float: right;
+}
+
+.wstr-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.js-img{
+  float: right;
+  width: 230px;
+  margin-top: 2rem;
+}
+
+.fw-img{
+  width: 230px;
+  float: left;
+}
+
+.right-img{
+  float: left;
+  width: 230px;
+  margin-top: 2rem;
+}
+/* 툴팁 */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+ visibility: hidden;
+ width: 120px;
+ background-color: black;
+ color: #fff;
+ text-align: center;
+ padding: 5px 0;
+ border-radius: 6px;
+
+ /* Position the tooltip text - see examples below! */
+ position: absolute;
+ z-index: 1;
+ width: 120px;
+ bottom: 100%;
+ left: 50%;
+ margin-left: -60px;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* 푸터 */
+.footer{
+  display: flex;
+  /* justify-content: space-around; */
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.contect{
+  padding-top: 1.5rem;
+}
+
+.info{
+  flex: 0.6;
+  padding-left: 6rem;
+  padding-top: 1rem;
+}
+.iframe{
+  display: flex;
+  flex:0.4;
+  justify-content: flex-end;
+  padding-right: 6rem;
+}
+.footer h3 {
+  font-size:1.6em;
+  margin-bottom:27px;
+}
+.footer p {
+  font-size:1.2em;
+  line-height: 0.9;
+}
+`

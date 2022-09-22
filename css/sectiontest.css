@@ -1,0 +1,311 @@
+/* 본문 */
+section{
+  display: flex;
+  height: auto;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: column;
+}
+
+  .wrapper {
+    padding-top:60px;
+    padding-bottom:120px;
+    padding-left: 40px;
+    background:transparent;
+    background-color: lightgray;
+    /* margin: auto; */
+  }
+
+  .section-title {
+    margin:30px auto 50px auto;
+  }
+  .wrapper:nth-child(even){
+    background-color:#f3f3f4;
+  }
+  .section-title h3{
+    font-size:1.8em;
+    text-align: center;
+  }
+  .intro {
+    padding:20px 50px;
+    /* width: 1200px; */
+  }
+  /* .text {
+    padding-left:50px;
+    padding-right:50px;
+  } */
+  .text h3 {
+    font-size:1.6em;
+    margin-bottom:50px;
+  }
+  .text p {
+    font-size:1.2em;
+    line-height: 1.8;
+  }
+
+/* 카드 ui */
+  .card-list {
+  	display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top:135px;
+    padding-bottom:120px;
+  }
+
+  .card-item{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding-top: 1rem;
+  }
+
+  .card-image {
+  	height:235px;
+    width: 210px;
+  	/* padding-bottom: 60%; */
+  	background-color: lightgray;
+  }
+
+  .card-desc {
+    height:50px;
+    width: 210px;
+  	/* flex: 1 1 auto;
+  	padding: 1em; */
+  	background: white;
+    text-align: center;
+  }
+
+  .desc-img{
+    height: 43px;
+    margin-top: 3.5px;
+    margin-bottom: 3.5px;
+    filter: drop-shadow(1px 1px 1px #000);
+  }
+
+/* 반응형 */
+@media (max-width: 630px) {
+  .card-list {
+  	display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card-item{
+    display: flex;
+    flex-direction: column;
+    flex: 0 100%;
+    padding-bottom: 1rem;
+  }
+
+  .card-image {
+  	height:156px;
+    width: 210px;
+  	/* padding-bottom: 60%; */
+  	background-color: lightgray;
+    margin: auto;
+  }
+
+  .img{
+    height: 138px;
+    display: block;
+    margin: 9px 36px 9px 36px;
+  }
+  .img-html{
+    height: 122px;
+    display: block;
+    margin: 17px 44px 17px 44px;
+  }
+  .card-desc {
+    height:50px;
+    width: 210px;
+  	/* flex: 1 1 auto;
+  	padding: 1em; */
+  	background: white;
+    margin: auto;
+  }
+}
+
+
+@media (max-width: 1052px) {
+  .web-img{
+    display: none;
+  }
+  .css3-img{
+    display: none;
+  }
+
+  .boot-img{
+    display: none;
+  }
+
+  .tag-img{
+    display: none;
+  }
+
+  .wstr-img{
+    display: none;
+  }
+
+  .js-img{
+    display: none;
+  }
+
+  .fw-img{
+    display: none;
+  }
+
+  .right-img{
+    display: none;
+  }
+}
+
+@media (min-width: 630px) {
+  .card-list {
+  	display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card-item{
+    display: flex;
+    flex-direction: column;
+    flex: 0 45%;
+    padding-bottom: 1rem;
+  }
+
+  .card-image {
+  	height:156px;
+    width: 210px;
+  	/* padding-bottom: 60%; */
+  	background-color: lightgray;
+    margin: auto;
+  }
+  .img{
+    height: 138px;
+    display: block;
+    margin: 9px 36px 9px 36px;
+  }
+  .img-html{
+    height: 122px;
+    display: block;
+    margin: 17px 44px 17px 44px;
+  }
+  .card-desc {
+    height:50px;
+    width: 210px;
+  	/* flex: 1 1 auto;
+  	padding: 1em; */
+  	background: white;
+    margin: auto;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .web-img{
+    display: block;
+  }
+  .css3-img{
+    display: block;
+  }
+
+  .boot-img{
+    display: block;
+  }
+
+  .tag-img{
+    display: block;
+  }
+
+  .wstr-img{
+    display: block;
+  }
+
+  .js-img{
+    display: block;
+  }
+
+  .fw-img{
+    display: block;
+  }
+
+  .right-img{
+    display: block;
+  }
+
+  .main-wrapper{
+    width: 1200px;
+    margin: auto;
+  }
+
+  .card{
+    width: 1200px;
+    margin: auto;
+  }
+  .card-list {
+  	display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .card-item{
+    display: flex;
+  }
+
+  .card-image {
+  	height:235px;
+    width: 210px;
+  	/* padding-bottom: 60%; */
+    margin: auto;
+  	background-color: lightgray;
+  }
+
+  .img{
+    height: 138px;
+    display: block;
+    margin: 48.5px 36px 48.5px 36px;
+  }
+  .img-html{
+    height: 122px;
+    display: block;
+    margin: 56.5px 44px 56.5px 44px;
+  }
+
+  .card-desc {
+    height:50px;
+    width: 210px;
+    margin: auto;
+  	/* flex: 1 1 auto;
+  	padding: 1em; */
+  	background: white;
+  }
+  /* 푸터 */
+  .footer{
+    display: flex;
+    /* justify-content: space-around; */
+    height: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 1300px;
+    margin: auto;
+  }
+
+  .info{
+    flex: 0.6;
+    padding-left: 6rem;
+    padding-top: 1rem;
+  }
+  .iframe{
+    display: flex;
+    flex:0.4;
+    justify-content: flex-end;
+    padding-right: 6rem;
+  }
+  .footer h3 {
+    font-size:1.6em;
+    margin-bottom:27px;
+  }
+  .footer p {
+    font-size:1.2em;
+    line-height: 0.9;
+  }
+}
